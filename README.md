@@ -17,7 +17,7 @@ Topic modelling for aritcles in arXiv.org
 * Status quo of R&D should be monitoring.
 
 
-## Questions
+## TODO
 * Patent data contains only short description?
 * How different variants of LDA perform?
 * Can Sentiment analysis perform good on advanced tasks such as "maturity measuring"? (Probably no.)
