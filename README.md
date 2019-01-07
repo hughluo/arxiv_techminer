@@ -6,7 +6,7 @@ This project contains two parts, technology identification and maturity classifi
 In this part, we use topic modelling to cluster technology articles.
 
 ### Tools
-* arxiv.py handles the xml file from arxiv.org and convert it to txt to prepare for hlta
+* arxiv.py handles the xml file from arxiv.org and convert it to txt to prepare for HLTA
 * vanilla_lda.py wrap lda by Scikit_Learn to use txt file we get from arxiv.py to do the vanilla favor LDA
 
 
