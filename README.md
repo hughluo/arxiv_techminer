@@ -1,26 +1,33 @@
-# arxiv_techminer
-Topic modelling
+# techminer
+This project contains two parts, technology identification and maturity classification, in order to serve the business R&D process.
 
-## Tools
+
+## Technology Identification
+In this part, we use topic modelling to cluster technology articles.
+
+### Tools
 * arxiv.py handles the xml file from arxiv.org and convert it to txt to prepare for hlta
+* vanilla_lda.py wrap lda by Scikit_Learn to use txt file we get from arxiv.py to do the vanilla favor LDA
 
-* vanilla_lda wrap lda by Scikit_Learn to use txt file we get from arxiv.py to do the vanilla favor LDA
 
+### Notes
+* However, how to define the abstraction level of "Technology" is ambiguous.
+* Status quo of R&D should be monitoring.
+* As an unsupervised learning task, how to evaluate the performance (likelihood, etc.) However, plausibility is questionable
 
-## Notes
+### TODO
+* Patent data contains only short description?
+* How different variants of LDA perform?
+
+## Technology Maturity Classification
+In the second part, we see measure of maturity of technology as a classification process.
+
+### Notes
 * Use vanilla favor LDA as baseline for topic modelling.
 * The result from hlta with default conf works pretty good.
 
-* However, how to define the abstraction level of "Technology" is ambiguous.
-* Status quo of R&D should be monitoring.
 
 
-## TODO
-* Patent data contains only short description?
-* How different variants of LDA perform?
-* Can Sentiment analysis perform good on advanced tasks such as "maturity measuring"? (Probably no.)
-* How to measure maturity? (e.g. plot Technolgy in Gartner's Hype cycle based on 'Visibility', how to justify...)
-* As an unsupervised learning task, how to evaluate the performance (likelihood, etc.) However, plausibility is questionable
 
 
 ## REF
