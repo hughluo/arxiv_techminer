@@ -31,5 +31,6 @@ In the second part, we see measure of maturity of technology as a classification
 
 
 ## REF
-[Measuring Technology Maturity: Operationalizing Information from Patents, Scientific Publications, and the Web](https://link.springer.com/content/pdf/10.1007%2F978-3-658-12132-7.pdf)
-[HLTA on Github and related Paper](https://github.com/kmpoon/hlta)
+* [Measuring Technology Maturity: Operationalizing Information from Patents, Scientific Publications, and the Web](https://link.springer.com/content/pdf/10.1007%2F978-3-658-12132-7.pdf)
+
+* [HLTA on Github and related Paper](https://github.com/kmpoon/hlta)
