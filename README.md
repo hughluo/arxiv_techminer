@@ -1,10 +1,8 @@
 # arxiv_techminer
-Topic modelling for aritcles in arXiv.org
+Topic modelling
 
 ## Tools
 * arxiv.py handles the xml file from arxiv.org and convert it to txt to prepare for hlta
-
-  (See https://github.com/kmpoon/hlta for more detail)
 
 * vanilla_lda wrap lda by Scikit_Learn to use txt file we get from arxiv.py to do the vanilla favor LDA
 
@@ -23,3 +21,8 @@ Topic modelling for aritcles in arXiv.org
 * Can Sentiment analysis perform good on advanced tasks such as "maturity measuring"? (Probably no.)
 * How to measure maturity? (e.g. plot Technolgy in Gartner's Hype cycle based on 'Visibility', how to justify...)
 * As an unsupervised learning task, how to evaluate the performance (likelihood, etc.) However, plausibility is questionable
+
+
+## REF
+[Measuring Technology Maturity: Operationalizing Information from Patents, Scientific Publications, and the Web](https://link.springer.com/content/pdf/10.1007%2F978-3-658-12132-7.pdf)
+[HLTA on Github and related Paper](https://github.com/kmpoon/hlta)
