@@ -16,4 +16,5 @@
 
 
 ## REF
+* [Latent Dirichlet Allocation](https://ai.stanford.edu/~ang/papers/nips01-lda.pdf)
 * [HLTA on Github and related Paper](https://github.com/kmpoon/hlta)
