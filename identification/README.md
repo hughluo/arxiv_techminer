@@ -13,3 +13,7 @@
 ## TODO
 * Patent data contains only short description?
 * How different variants of LDA perform?
+
+
+## REF
+* [HLTA on Github and related Paper](https://github.com/kmpoon/hlta)
